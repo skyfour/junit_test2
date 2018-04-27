@@ -35,12 +35,14 @@ public class UserDaoTest {
     }
 
     @Test
+    @Ignore
     public void testGetById() {
         User user = this.userDao.getById(1);
         System.out.println(user.getUsername());
     }
 
     @Test
+    @Ignore
     public void testUpdate() {
         User user = new User();
         user.setId(1);
@@ -49,6 +51,7 @@ public class UserDaoTest {
     }
 
     @Test
+    @Ignore
     public void testDeleteById() {
         int result = this.userDao.deleteById(1);
         System.out.println(result);
