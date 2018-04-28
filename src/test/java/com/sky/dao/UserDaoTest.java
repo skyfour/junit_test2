@@ -25,7 +25,7 @@ public class UserDaoTest {
 
     @Test
     public void testInsert() {
-        User user = new User();
+        User user = new User();  
 //        User user = userRepository.findOne(10);
         user.setUsername("张三11");
         user.setPassword("zhangsan11");
